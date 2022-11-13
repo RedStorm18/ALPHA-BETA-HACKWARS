@@ -15,7 +15,7 @@ if (isset($_POST['username'])){
     $result = mysqli_query($con, $sql);
 
     if(mysqli_num_rows($result)==1){
-        header('Location: game.php');
+        header('Location: HOME/homepage.html');
         exit();
     }
     else{
